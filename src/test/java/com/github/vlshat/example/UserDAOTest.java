@@ -17,6 +17,7 @@ class UserDAOTest {
 
     @BeforeAll
     public void init() {
+        //so it will be a new database each time
         userDAO = new UserDAO(getDataSource());
     }
 
